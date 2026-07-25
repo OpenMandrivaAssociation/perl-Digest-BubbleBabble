@@ -3,12 +3,12 @@
 
 Summary:	Create bubble-babble fingerprints
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	18
+Version:	%{modver}
+Release:	19
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Digest/%{modname}-%{modver}.tar.bz2
+Url:		https://github.com/btrott/Digest-BubbleBabble
+Source0:	https://cpan.metacpan.org/authors/id/B/BT/BTROTT/Digest-BubbleBabble-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(inc::Module::Install)
